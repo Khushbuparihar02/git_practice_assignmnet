@@ -1,10 +1,19 @@
-let str = "naman";
-let bag = "";
-for(let i=str.length-1; i>=0; i--){
-    bag += str[i];
-}
-if(bag === str[i]){
-    console.log("Yes");
-}else{
-    console.log("no");
+Check_Palindrome...
+
+	let str = "naman";
+    
+    let bag = "";
+    
+    for(let p=str.lenght-1 ; p>=0 ; p--){
+        
+        bag = bag+str[p];
+        
+    }if(bag===str){
+        
+        console.log("Yes");
+        
+    }else{
+    
+    console.log("No");
+
 }
